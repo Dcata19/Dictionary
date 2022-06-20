@@ -18,9 +18,9 @@ function addWord() {
 function searchWord() {
     for (let i = 1; i < id; ++i) {
         if (document.getElementById(i).innerText == getInput()) {
-            document.getElementById('message').innerText = 'Cuvantul exista in dictionar';
+            document.getElementById('message').innerText = 'The word already exists in dictionary';
         } else {
-            document.getElementById('message').innerText = 'Cuvantul nu exista in dictionar';
+            document.getElementById('message').innerText = 'The word does not exists in dictionary';
         }
     }
 }
